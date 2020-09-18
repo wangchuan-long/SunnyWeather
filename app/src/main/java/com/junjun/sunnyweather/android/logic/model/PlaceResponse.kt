@@ -1,10 +1,9 @@
 package com.junjun.sunnyweather.android.logic.model
 
-import android.location.Location
 import com.google.gson.annotations.SerializedName
 
 /**
- * 定义数据模型
+ * 定义城市查询返回的数据模型
  */
 // status：请求状态 places：关于地点的数组
 data class PlaceResponse(val status: String, val places: List<Place>)

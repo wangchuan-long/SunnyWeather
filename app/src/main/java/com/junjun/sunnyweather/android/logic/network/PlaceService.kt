@@ -7,7 +7,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 /**
- * 用于访问彩云天气城市搜索API
+ * 用于访问彩云天气城市搜索API的Retrofit接口
  */
 interface PlaceService {
 
